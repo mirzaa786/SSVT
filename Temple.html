@@ -1,0 +1,1362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Document</title>
+
+    <style>
+
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .fixed {
+            position: fixed;
+            bottom: 15px;
+            right: 25px;
+            height: 40px;
+            width: 40px;
+            text-align: center;
+            font-size: 35px;
+            line-height: 50px;
+            color: white;
+            background-color: #f0ca12;
+            border-radius: 5px;
+        }
+        
+        .A{
+            height: 50px;
+            width: 100%;
+            background-color: black;
+          }
+
+       
+
+         .B{
+                float: left;
+                padding-left:1100px;
+                padding-right: 30px;
+                margin-top: 10px;
+                
+
+            }
+
+            .C{
+                float: left;
+                padding-left: 5px;
+                padding-right: 30px;
+                margin-top: 10px;
+                
+
+            }
+
+            .button{
+                font-size: 15px;
+                background-color: red;
+                border: 2px solid blueviolet;
+                border-radius: 5px;
+                cursor: pointer;
+
+            }
+
+            .button:hover{
+                background-color: yellow;
+                color: red;
+            }
+
+           @media (min-width:360px) and (max-width:912px) {
+            .A{
+                background-color: black;
+                width:1500px;
+            }
+            
+           }
+
+           .D{
+            height: 165px;
+            width: 100%;
+            
+            background-color: #f0ca12;
+
+           }
+
+           .D1{
+            height: 150px;
+            width: 150px;
+            float: left;
+            padding-left:100px ;
+            margin-left: 50px;
+           
+            
+           }
+
+           .D2{
+            height: 130px;
+            width: 630px;
+            float: left;
+            margin-top: 10px;
+            margin-left: 110px;
+            font-size: 30px;
+            line-height: 50px;
+            color: black;
+            text-align: center;
+           }
+
+           .D3{
+            height: 150px;
+            width: 150px;
+            float: left;
+            margin-left: 100px;
+           
+           }
+
+           .F{
+            height:50px ;
+            width: 100%;
+            background-color: black;
+            margin-top: -15px;
+
+           }
+
+           .ul .li{
+                display: inline;
+                color: white;
+                padding: 15px;
+                line-height: 50px;
+                font-weight: bold;
+                padding-left: 39px;
+                padding-right: 27.4px;
+                cursor: pointer;
+            }
+
+            .ul .li:hover{
+                border-radius: 10px;
+                background-color: #f0ca12;
+                color: black;
+            }
+
+            .G{
+                height: 600px;
+                width:100% ;
+                background: url(/Users/amanmirza/Desktop/12.jpg);
+                background-repeat: no-repeat;
+                background-size:  cover;
+            }
+
+            .G1{
+                height: 500px;
+                width:400px ;
+                float: left;
+                margin-left: 65px;
+                margin-top: 50px;
+                background: url(/Users/amanmirza/Desktop/10.jpg);
+                background-repeat: no-repeat;
+                background-size:  cover;
+            }
+
+            .G11{
+                height: 100px;
+                width: 400px;
+                margin-top: -20px;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                background-color: #ab183b;
+                text-align: center;
+                line-height: 40px;
+                color: white;
+                font-weight: bold;
+                
+            }
+
+            .G2{
+                height: 500px;
+                width:400px  ;
+                float: left;
+                margin-left: 65px;
+                margin-top: 50px;
+                background: url(/Users/amanmirza/Desktop/10.jpg);
+                background-repeat: no-repeat;
+                background-size:  cover;
+            }
+
+            .G21{
+                height: 50px;
+                width: 60px;
+                float: left;
+                line-height: 50px;
+                text-align: center;
+                color: white;
+                background-color: green;
+                border-radius: 10px;
+                border: 2px solid #f0ca12;
+                margin-left: 70px;
+                margin-top: 35px;
+            }
+
+            .G22{
+                height: 50px;
+                width: 70px;
+                float: left;
+                line-height: 50px;
+                text-align: center;
+                color: white;
+                background-color: green;
+                border-radius: 10px;
+                border: 2px solid #f0ca12;
+                margin-left: 30px;
+                margin-top: 35px;
+            }
+
+            .G23{
+                height: 50px;
+                width: 90px;
+                float: left;
+                line-height: 50px;
+                text-align: center;
+                color: white;
+                background-color: green;
+                border-radius: 10px;
+                border: 2px solid #f0ca12;
+                margin-left: 30px;
+                margin-top: 35px;
+            }
+
+            .G3{
+                height: 500px;
+                width:400px  ;
+                float: left;
+                margin-left: 65px;
+                margin-top: 50px;
+                background: url(/Users/amanmirza/Desktop/10.jpg);
+                background-repeat: no-repeat;
+                background-size:  cover;
+            }
+
+            .H{
+                height: 600px;
+                width: 100%;
+                text-align: center;
+                line-height: 100px;
+                font-weight: bolder;
+                font-size: 50px;
+                background: url(/Users/amanmirza/Desktop/13.jpg);
+            }
+
+            .H1{
+                height: 180px;
+                width: 1300px;
+                margin: 50px auto;
+                box-shadow: 0px 0px 4px 4px black;
+                text-align: center;
+                background-color: white;
+            }
+
+            .H2{
+                height: 180px;
+                width: 120px;
+                float: left;
+                margin-top: -158px;
+                background: url(/Users/amanmirza/Desktop/14.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+
+            .H3{
+                height: 110px;
+                width: 110px;
+                background-color: bisque;
+                border-radius: 50%;
+                float: left;
+                margin-top: -125px;
+                margin-left: 100px;
+                
+            }
+
+            .H4{
+                height: 100px;
+                width: 200px;
+                border: 1px solid black;
+                border-radius: 50px;
+                background-color: #ab183b;
+                box-shadow: 0px 8px 8px 8px grey;
+                color: white;
+                float: left ;
+                margin-left: 1020px;
+                margin-top: -140px;
+                text-align: center;
+                font-size: 30px;
+            }
+
+           
+
+            
+            
+            .b2{
+                height: 40px;
+                width: 120px;
+                font-size: 15px;
+                background-color: #ab183b;
+                color: white;
+                margin-top: -200px;
+                margin-left: 1250px;
+            }
+
+            .I{
+                height: 1150px;
+                width: 100%;
+                text-align: center;
+                line-height: 110px;
+                font-weight: bolder;
+                font-size: 50px;
+                background: url(/Users/amanmirza/Desktop/18.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+
+            }
+
+            .I1{
+                height:350px ;
+                width: 450px;
+                float: left;
+                margin-top: 150px;
+                margin-left: 180px;
+                border-radius: 10px;
+                background: url(/Users/amanmirza/Desktop/16.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+
+            .I2{
+                height:350px ;
+                width: 450px;
+                float: left;
+                margin-top: 150px;
+                margin-left: 220px;
+                border-radius: 10px;
+                background: url(/Users/amanmirza/Desktop/17.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+
+            .I3{
+                height: 100px;
+                width: 400px;
+                text-align: center;
+                float: left;
+                margin-top: 10px;
+                margin-left: 205px;
+                line-height: 90px;
+                font-size: 40px;
+                color: #ab183b;
+            }
+
+            .I4{
+                height: 100px;
+                width: 400px;
+                text-align: center;
+                float: left;
+                margin-top: 10px;
+                margin-left: 270px;
+                line-height: 90px;
+                font-size: 40px;
+                color: #ab183b;
+            }
+
+            .I5{
+                height: 250px;
+                width: 500px;
+                text-align: center;
+                float: left;
+                margin-top: 10px;
+                margin-left: 155px;
+                line-height: 27px;
+                font-size: 15px;
+                
+                
+            }
+
+            .I6{
+                height: 250px;
+                width: 500px;
+                text-align: center;
+                float: left;
+                margin-top: 10px;
+                margin-left: 180px;
+                line-height: 27px;
+                font-size: 15px;
+                
+                
+            }
+
+             .I7{
+                height: 40px;
+                width: 250px;
+                text-align: center;
+                float: left;
+                margin-top: 60px;
+                margin-left: 610px;
+                border: 1px solid black;
+                font-size: 20px;
+                line-height: 40px;
+                border-radius: 5px;
+                background-color: #ab183b;
+                color: white;
+                            
+            }
+
+            .J{
+                height: 1150px;
+                width: 100%;
+                text-align: center;
+                line-height: 110px;
+                font-weight: bolder;
+                font-size: 50px;
+                background: url(/Users/amanmirza/Desktop/18.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+
+            }
+
+            .J1{
+                height: 50px;
+                width: 600px;
+                float: left;
+                margin-top: 30px;
+                margin-left: 800px;
+                font-size: 43px;
+                line-height: 50px;
+                color: #ab183b;
+
+            }
+
+            .J2{
+                height: 20px;
+                width: 240px;
+                float: left;
+                margin-left: 1000px;
+                background: url(/Users/amanmirza/Desktop/11.jpg);
+                background-repeat: no-repeat;
+                
+            }
+
+            .J3{
+                height: 400px;
+                width: 600px;
+                float: left;
+                border-radius: 10px;
+                margin-left: 50px;
+                margin-top: -70px;
+                background: url(/Users/amanmirza/Desktop/19.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+
+            .J4{
+                height: 130px;
+                width: 700px;
+                float: left;
+                margin-top: -320px;
+                margin-left: 730px;
+                font-size: 15px;
+                line-height: 25px;
+                color: black;
+
+            }
+
+            .J5{
+                height: 40px;
+                width: 200px;
+                text-align: center;
+                float: left;
+                margin-top: -120px;
+                margin-left: 770px;
+                font-size: 20px;
+                line-height: 40px;
+                border-radius: 5px;
+                background-color: #ab183b;
+                color: white;
+                            
+            }
+
+
+            .J6{
+                height: 40px;
+                width: 150px;
+                text-align: center;
+                float: left;
+                margin-top: -120px;
+                margin-left: 1010px;
+                font-size: 20px;
+                line-height: 40px;
+                border-radius: 5px;
+                background-color: #ab183b;
+                color: white;
+                            
+            }
+
+            .J7{
+                height: 40px;
+                width: 150px;
+                text-align: center;
+                float: left;
+                margin-top: -120px;
+                margin-left: 1200px;
+                font-size: 20px;
+                line-height: 40px;
+                border-radius: 5px;
+                background-color: #ab183b;
+                color: white;
+                            
+            }
+
+            .J8{
+                height: 50px;
+                width: 700px;
+                float: left;
+                margin-top: 100px;
+                margin-left: 390px;
+                font-size: 43px;
+                line-height: 50px;
+                color: #ab183b;
+                
+
+            }
+
+            .J9{
+                height: 20px;
+                width: 240px;
+                float: left;
+                margin-left: 620px;
+                background: url(/Users/amanmirza/Desktop/11.jpg);
+                background-repeat: no-repeat;
+                
+            }
+
+
+            .J10{
+                height: 400px;
+                width: 300px;
+                float: left;
+                border-radius: 5px;
+                margin-left: -650px;
+                margin-top: 70px;
+                
+            }
+
+            .J10:hover{
+                box-shadow: 0px 30px 30px 10px gray;
+            }
+
+            .J101{
+                height: 250px;
+                width: 300px;
+                float: left;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                background: url(/Users/amanmirza/Desktop/20.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+
+            }
+
+            .J102{
+                height: 150px;
+                width: 300px;
+                float: left;
+                font-size: 30px;
+                line-height: 50px;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+                background-color: white;
+            }
+            
+            .J103{
+                height: 70px;
+                width: 300px;
+                float: left;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+                margin-top: 30px;
+                background: url(/Users/amanmirza/Desktop/31.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                
+               
+
+            }
+
+            .J104{
+                height: 30px;
+                width: 300px;
+                margin-top:-12px ;
+                float: left;
+                
+                background: url(/Users/amanmirza/Desktop/28.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+
+
+
+            .J11{
+                height: 400px;
+                width: 300px;
+                float: left;
+                border-radius: 5px;
+                margin-left: -275px;
+                margin-top: 70px;
+                
+            }
+
+            .J11:hover{
+                box-shadow: 0px 30px 30px 10px gray;
+            }
+
+            .J111{
+                height: 250px;
+                width: 300px;
+                float: left;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                background: url(/Users/amanmirza/Desktop/21.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+
+            }
+
+            .J112{
+                height: 150px;
+                width: 300px;
+                float: left;
+                font-size: 30px;
+                line-height: 50px;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+                background-color: white;
+            }
+
+            .J113{
+                height: 70px;
+                width: 300px;
+                float: left;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+                margin-top: 30px;
+                background: url(/Users/amanmirza/Desktop/31.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                
+                
+            }
+
+            .J114{
+                height: 30px;
+                width: 300px;
+                margin-top:-12px ;
+                float: left;
+                
+                background: url(/Users/amanmirza/Desktop/28.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+
+            .J12{
+                height: 400px;
+                width: 300px;
+                float: left;
+                border-radius: 5px;
+                margin-left: 70px;
+                margin-top: 70px;
+                
+            }
+
+            .J12:hover{
+                box-shadow: 0px 30px 30px 10px gray;
+            }
+
+            .J121{
+                height: 250px;
+                width: 300px;
+                float: left;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                background: url(/Users/amanmirza/Desktop/22.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+
+            }
+
+            .J122{
+                height: 150px;
+                width: 300px;
+                float: left;
+                font-size: 30px;
+                line-height: 50px;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+                background-color: white;
+            }
+            
+            .J123{
+                height: 70px;
+                width: 300px;
+                float: left;
+                margin-top: 30px;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+                background: url(/Users/amanmirza/Desktop/31.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+
+            .J124{
+                height: 30px;
+                width: 300px;
+                margin-top:-12px ;
+                float: left;
+               
+                background: url(/Users/amanmirza/Desktop/28.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                
+            }
+
+            .slider{
+                height: 500px;
+                width: 100%;
+            }
+
+            .K{
+                height: 400px;
+                width: 100%;
+                background-color: #f0ca12;
+            }
+
+            .K1{
+                height: 200px;
+                width: 200px;
+                float: left;
+                margin-top:40px ;
+                margin-left:60px ;
+                background: url(/Users/amanmirza/Desktop/29.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+
+            .sound{
+                height: 50px;
+                width: 200px;
+                border-radius: 50px;
+                float: left;
+                line-height: 50px;
+                margin-left: -200px;
+                margin-top: 300px;
+                
+            }
+
+            .K2{
+                height: 400px;
+                width: 200px;
+                float: left;
+                margin-left: 80px;
+
+            }
+
+            .K21{
+                height: 50px;
+                width: 170px;
+                float: left;
+                margin-left: 12.5px;
+                margin-top: 20px;
+                text-align: center;
+                line-height: 50px;
+                font-size: 20px;
+            }
+
+            .K22{
+                height: 20px;
+                width: 170px;
+                float: left;
+                margin-left: 14px;
+                background: url(/Users/amanmirza/Desktop/30.png);
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            .K23{
+                height: 20px;
+                width: 200px;
+                float: left;
+            }
+
+            .K3{
+                height: 400px;
+                width: 300px;
+                float: left;
+                margin-left: 40px;
+            }
+
+            .K31{
+                height: 50px;
+                width: 250px;
+                float: left;
+                margin-left: 15px;
+                margin-top: 20px;
+                text-align: center;
+                line-height: 50px;
+                font-size: 20px;
+                
+            }
+
+            .K32{
+                height: 20px;
+                width: 250px;
+                float: left;
+                margin-left: 14px;
+                background: url(/Users/amanmirza/Desktop/30.png);
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            .K33{
+                height: 20px;
+                width: 300px;
+                float: left;
+            }
+
+            .K34{
+                height: 50px;
+                width: 250px;
+                float: left;
+                margin-left: 14px;
+                margin-top: 20px;
+                text-align: center;
+                line-height: 50px;
+                font-size: 20px;
+            }
+
+            .K35{
+                height: 70px;
+                width: 70px;
+                float: left;
+                border-radius: 50%;
+                margin-left: 40px;
+                margin-top: 20px;
+                background-color: #ff8c00;
+                text-align: center;
+                font-size: 50px;
+                line-height: 85px; 
+            }
+
+            .K36{
+                height: 70px;
+                width: 70px;
+                float: left;
+                border-radius: 50%;
+                margin-left: 50px;
+                margin-top: 20px;
+                background-color: #ff8c00;
+                text-align: center;
+                font-size: 50px;
+                line-height: 85px;
+            }
+
+            .K4{
+                height:426px ;
+                width: 5px;
+                float: left;
+                margin-top: -12px;
+                margin-left: 100px;
+                rotate: 20deg;
+                background-color: black;
+            }
+
+            .K5{
+                height: 50px;
+                width: 280px;
+                float: left;
+                margin-left: 100px;
+                margin-top: 20px;
+                text-align: center;
+                line-height: 50px;
+                font-size: 20px;
+                
+            }
+
+            .K6{
+                height: 20px;
+                width: 250px;
+                float: left;
+                margin-left: 120px;
+                background: url(/Users/amanmirza/Desktop/30.png);
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            .K7{
+                height: 160px;
+                width: 250px;
+                float: left;
+                margin-top: 20px;
+                margin-left: 120px;
+                text-align: center;
+                font-size: 25px;
+                line-height: 40px;
+                
+            }
+
+            .K8{
+                height: 50px;
+                width: 200px;
+                float: left;
+                margin-left: 100px;
+                margin-top: 40px;
+                border-radius: 50px;
+                text-align: center;
+                line-height: 50px;
+                font-size: 25px;
+                box-shadow: 1px 1px 1px 1px black;
+                border: 3px solid black;
+            }
+
+
+            .L{
+                height: 50px;
+                width: 100%;
+                background-color: black;
+            }
+
+            .L1{
+                height: 50px;
+                width: 370px;
+                float: left;
+                margin-left: -900px;
+                line-height: 40px;
+                color: gray;
+            }
+            .L2{
+                height: 50px;
+                width: 450px;
+                float: left;
+                line-height: 40px;
+                margin-left: 550px;
+                color: gray;
+            }
+
+            .paraaa{
+                float: left;
+                text-align: center;
+            }
+            .paraaa::first-letter {
+                font-size: 60px;
+                color:rgb(5, 5, 39);
+            }
+
+
+
+
+
+       
+    </style>
+
+
+<script>
+    var images=['b.png','c.png','d.png','e.png','f.png']
+    var i=0;
+
+    function changeImage()
+    {
+      var x=document.getElementById('A');
+      x.src=images[i];
+      i++;
+      if(i==images.length)
+      {
+        i=0;
+      }
+      setTimeout(changeImage,6000);
+
+
+     }
+
+</script>
+
+
+
+
+
+
+</head>
+<body onload="changeImage()">
+
+    <div class="fixed"><a href="" style="text-decoration: none;color: white;"><ion-icon name="arrow-up-outline"></ion-icon></a></div>
+
+    <div class="A">
+
+                 <div class="B">
+                        <a href=""><button  class="button">Request Puja Service</button> </a>
+                 </div>&nbsp;&nbsp;&nbsp;
+
+       
+
+                <div class="C">
+                     <a href=""><button class="button">Sign In</button></a>
+                </div>
+
+    </div>
+
+    <div class="D">
+
+        <div class="D1">
+
+            <img src="/Users/amanmirza/Desktop/7.jpg" alt="" style="height:150px; width: 150px;">
+
+        </div>
+
+        <div class="D2">
+            <p class="paraaa" style="margin-left: 100px;">SRI</p><p class="paraaa" style="margin-left: 10px;">SIVA</p><p class="paraaa" >VISHNU</p><p class="paraaa" style="margin-left: 10px;">TEMPLE</p><br>
+           <br> <h6 style="margin-top: -40px;">6905 Cipriano Rd, Lanham, MD 20706</h6>
+            <h6 style="margin-top: -25px;"><ion-icon name="call" style="font-size: 10px;"></ion-icon>+1 301-552-3335 <ion-icon name="mail" style="font-size: 10px;"></ion-icon>ssvt@ssvt.org</h6>
+
+        </div>
+
+        <div class="D3">
+
+            <img src="/Users/amanmirza/Desktop/8.jpg" alt="" style="height:150px; width: 150px;">
+
+        </div>
+
+    </div>
+
+
+    <div class="F">
+
+       
+        <ul class="ul">
+            <li class="li" style="width: 40px;">HOME</li>
+            <li class="li">RELIGIOUS<ion-icon name="caret-down" ></ion-icon></li>
+            <li class="li">CULTURAL</li>
+            <li class="li">EDUCATION<ion-icon name="caret-down"></ion-icon></li>
+            <li class="li">SPONSORSHIPS</li>
+            <li class="li">CALANDER<ion-icon name="caret-down"></ion-icon></li>
+            <li class="li">FACILITIES</li>
+            <li class="li">DONATION<ion-icon name="caret-down"></ion-icon></li>
+            <li class="li"><a href="/Users/amanmirza/Desktop/Temple_About.html" style="text-decoration: none;color: white;">ABOUT</a></li>
+        </ul>
+
+    </div>
+
+
+    <div class="slider">
+
+        <img src="/Users/amanmirza/Desktop/a.png"  alt=""  id="A" height="500px" width="100%">
+
+
+    </div>
+
+
+    <div class="G">
+
+        <div class="G1">
+            <div class="G11">
+                <h2 >SPECIAL EVENTS</h2>
+                <img src="/Users/amanmirza/Desktop/11.jpg" alt="" >
+            </div>
+        </div>
+        <div class="G2">
+            <div class="G11">
+                <h2 >TEMPLE SCHEDULES</h2>
+                <img src="/Users/amanmirza/Desktop/11.jpg" alt="" style="margin-left: -360px;">
+
+                <div class="G21">DAILY</div>
+                <div class="G22">WEEKLY</div>
+                <div class="G23">MONTHLY</div>
+            </div>
+        </div>
+        <div class="G3">
+            <div class="G11">
+                <h2 >TODAY'S PANCHANGAMS</h2>
+                <img src="/Users/amanmirza/Desktop/11.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="H">
+        Upcoming Events<br>
+        <img src="/Users/amanmirza/Desktop/11.jpg" alt="" >
+
+        <div class="H1">
+            <h6 style="line-height: 108px;">Annual Food Bazaar</h6>
+            <p style="font-size: 20px;margin-top: -50px;word-spacing: 5px;">Click on Register button to see more about this Event</p>
+            
+               
+
+                <div class="H2">
+
+                </div>
+
+                <div class="H3">
+                     <p style="font-size: 50px;margin-top: -15px;">08</p>  <br>
+                     <p style="font-size: 20px;margin-top: -155px;">JUN</p>
+                </div>
+
+                <div class="H4">
+
+                      REGISTER
+
+                </div>
+            
+
+        </div>
+
+        
+            <a href=""><button  class="b2">View more<ion-icon name="paper-plane"></ion-icon></button> </a>
+        
+
+    </div>
+
+
+    <div class="I">
+        Sri Siva Vishnu Temple Services<br>
+        <img src="/Users/amanmirza/Desktop/11.jpg" alt="" style="margin-left: -1250px;" >
+
+
+        <div class="I1">
+
+        </div>
+
+
+        <div class="I2">
+
+        </div>
+
+        <div class="I3">
+
+            In Temple Services
+
+        </div>
+
+
+        <div class="I4">
+
+            Away Temple Services
+
+        </div>
+
+        <div class="I5">
+
+            Our Temple’s motto has always been that the Devotee should only have the “WILL” to do the Dharmic activity and concern for the “BILL” should be the least. Due to this practice, many devotees have been developing guilt of short-paying for services. Based on increased demand, the Temple Management has decided to publish list of Suggested Donations for various Pooja Services offered
+
+        </div>
+
+        <div class="I6">
+
+            With Puja Services, finding a Priest is no more a tedious process. Using Puja Services, devotees can avail the services of booking a priest online at their convenience for any kind of Puja, ritual, ceremony and occasion. Puja services simplifies the process of booking a priest very much at ease along with the items required for a Puja as well as the vendors where they could procure the puja materials.
+
+        </div>
+
+
+        <div class="I7">
+
+            VIEW ALL SERVICES
+
+        </div>
+
+
+
+    </div>
+
+
+    <div class="J">
+
+        <div class="J1">
+            About Sri Siva Vishnu Temple
+
+        </div>
+
+        <div class="J2">
+
+        </div>
+
+        <div class="J3">
+
+
+        </div>
+
+        <div class="J4">
+
+            The events that led up to the manifestation of the Sri Siva Vishnu Temple are truly wonderful and inspiring. In 2010, a large package arrived from India, from my guru Swami Sathasivom. My guru Swami Sathasivom is one of the foremost Saiva and Sakta practitioners in the world today, with years of tapas and intense bhakti towards the Mother. He travels the world performing yagas and consecrating temples, while radiating his grace and touching the lives of thousands of devotees.
+
+        </div>
+
+        <div class="J5">
+
+            VIRTUAL TOUR
+
+
+        </div>
+
+        <div class="J6">
+
+            GALLERY
+
+
+        </div>
+
+        <div class="J7">
+
+            KNOW MORE
+
+
+        </div>
+
+
+        <div class="J8">
+
+            Be a part of Sri Siva Vishnu Temple
+
+        </div>
+
+        <div class="J9"></div>
+
+        <div class="J10">
+            <div class="J101"></div>
+            <div class="J102">
+                VOLUNTEER
+                <div class="J103">
+                    <div class="J104"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="J11">
+            <div class="J111"></div>
+            <div class="J112">
+                DONATE
+                <div class="J113">
+                    <div class="J114"></div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="J12">
+            <div class="J121"></div>
+            <div class="J122">
+                SUBSCRIBE
+                <div class="J123">
+                    <div class="J124"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="K">
+
+        <div class="K1"></div>
+
+        <div class="sound"><audio src="pooja.mpeg" controls style="height: 200px;width: 200px;;margin-top: -150px;"></audio></div>
+
+        <div class="K2">
+            <div class="K21">ABOUT US</div>
+            <div class="K22"></div>
+            <div class="K23"></div>
+            <div style="margin-left: 16px;">
+                             
+                <ul>
+                    <li style="list-style: none;">ABOUT TEMPLE</li><br>
+                    <li style="list-style: none;">SERVICES</li><br>
+                    <li style="list-style: none;">DONATIONS</li><br>
+                    <li style="list-style: none;">GALLERY</li><br>
+                    <li style="list-style: none;">PLEDGE FORM</li><br>
+                    <li style="list-style: none;">VOLUNTEER FORM</li><br>
+                    <li style="list-style: none;">PRIEST REQUEST FORM</li><br>
+                    
+                </ul>
+
+
+            </div>
+        </div>
+
+
+        <div class="K3">
+            <div class="K31">TEMPLE TIMINGS</div>
+            <div class="K32"></div>
+            <div class="K33"></div>
+
+            <div>
+                <table border="1px" cellpadding="5px" cellspacing="5px" style="margin-left: 20px;background-color: #ff8c00;">
+                    <tr>
+                        <td>WEEKDAYS</td>
+                        <td>9:00 AM – 1:00 PM <br>
+                            5:00 PM – 9:00 PM
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>WEEKENDS</td>
+                        <td>9:00 AM – 9:00 PM</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="K34">FOLLOW US</div>
+            <div class="K32"></div>
+            <div class="K35"><ion-icon name="logo-facebook" style="color: blue;"></ion-icon></div>
+            <div class="K36"><ion-icon name="logo-youtube" style="color: red;"></ion-icon></div>
+
+
+        </div>
+
+        <div class="K4"></div>
+
+        <div class="K5">CONNECT WITH US</div>
+        <div class="K6"></div>
+        <div class="K7">
+            6905 Cipriano Rd,<br>
+            Lanham, MD 20706 <br>
+            <ion-icon name="call"></ion-icon>+1 301-552-3335 <br>
+            <ion-icon name="mail"></ion-icon>ssvt@ssvt.org <br>
+        </div>
+
+        <div class="K8">CONTACT US</div>
+
+        
+
+    </div>
+
+    <div class="L">
+
+        <div class="L1">Powered by VAAP Technologies Inc, All rights reserved. </div>
+        <div class="L2">COPYRIGHT | TERMS OF USE | PRIVACY POLICY | SECURITY</div>
+
+    </div>
+
+
+
+
+    
+</body>
+</html>
